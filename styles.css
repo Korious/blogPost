@@ -26,6 +26,7 @@ main {
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
+    margin-bottom: 70px;
 }
 
 section {
@@ -50,8 +51,19 @@ footer {
     width: 100%;
     text-align: center;
     position: fixed;
+    border-radius: 500px;
     bottom: 0;
     left: 0;
+}
+
+a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005f8d;
+    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
